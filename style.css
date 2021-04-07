@@ -1,0 +1,94 @@
+*{
+font-size: 16px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-sizing: border-box
+
+}
+
+body{
+  background-color: #131C25;
+  color: #f7f7f7f7;
+}
+
+a{
+  text-decoration: none;
+  transition: color 0.2s linear;
+  color: #f7f7f7f7;
+}
+ul{
+  list-style: none;
+}
+
+/*Menu*/
+
+.header{
+  background-color: black;
+   position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.header-esq{
+  display: flex;
+  
+}
+
+.header-esq > .menu > ul{
+  display: flex;
+  flex-direction: row;
+  
+}
+.header-esq > .menu > ul > li{
+  padding: 20px 35px 25px 35px;
+  text-transform: uppercase;
+}
+.header-esq > .logo{
+  height: 88px;
+
+  display: flex;
+  align-items: center;
+}
+.header-esq > .logo > a{
+  padding: 15px 0px 0px 20px;
+}
+.header-esq > .logo > a > img{
+  width: 140px;
+  height: 78px;
+}
+.principal > main > .banner > img{
+  width: 1289px;
+  height: 270.61px;
+}
+.principal > main > .banner{
+  padding: 110px 0px 0px 30px;
+}
+.sobre {
+  margin-top: 0px;
+  border-bottom: 1px solid #f7f7f7;
+  text-align: center;
+  
+}
+#sobre-flow{
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 10px 180px 0px 180px;
+}
+.sobre01 > h1{
+  font-size: 2.7rem;
+  letter-spacing: 10px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+#atraso{
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: rgb(204,204,204);
+  margin-top: 10px;
+}
+.sobre01 > h2{
+  font-weight: 650;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+
